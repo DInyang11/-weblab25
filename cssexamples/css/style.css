@@ -5,6 +5,57 @@ body{
     background-color: #999999;
     /*write a comment in in css*/
 }
+
+header{
+    width: 700px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+p{
+   text-align: center;
+   margin-left: 220px;
+   margin-right: 220px;
+   background-color: mintcream;
+   line-height: 32px;
+    
+
+}
+main{
+    width: 960px;
+    background-color: rgb(192, 192, 209);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 5px dotted green;
+    border-right: 5px dotted green;
+    border-bottom: 5px dotted green;
+    border-top: 5px dotted green;
+    margin: 0px auto;
+}
+footer{
+    width: 960px;
+    background-color:whitesmoke;
+    margin: 0px auto;
+    padding: 15px;
+    text-align: center;
+    border-left: 5px dotted black;
+    border-right: 5px dotted black;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    margin-top: 10px;
+    line-height: 32px;
+    
+
+}
+
 h1{ 
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -21,7 +72,7 @@ ul{
     list-style: square;
 }
 ul li{
-    color: blue;
+   
 }
 li{
     text-decoration: underline;
@@ -30,8 +81,56 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:pink;
+    color:yellow;
 }
 img{
-    width: 300px;
+    width: 400px;
+    
+    /* height: 100px
+    use width or height for setting img sizes */
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+.imageGallery{
+    width: 400px;
+    
+    
+    
+}
+.blue{
+    color: rgb(54, 79, 157);
+}
+.redBackground{
+    background-color: rgb(209, 51, 56)
+
+}
+nav{
+    width: 400px;
+    margin:0px auto;
+    border-bottom: black 1px solid;
+
+}
+nav ul li{
+    list-stlye: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: "Roberto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+
+}
+nav ul li a:hover{
+    background-color:blue;
+
 }
